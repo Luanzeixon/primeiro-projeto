@@ -1,2 +1,7 @@
-<p>cursos component!</p>
+<p>Lista de cursos do portal {{nomePortal}}</p> <!--  "{{}}" importa variavel do component.js-->
 <app-curso-detalhe></app-curso-detalhe>
+<ul>
+  <li *ngFor="let curso of cursos"><!-- uma variavel curso que vai receber valor de cada valor de cursos, ngFor é tipo um th:each -->
+      {{curso}} <!--  escrever variavel-->
+  </li>
+</ul>

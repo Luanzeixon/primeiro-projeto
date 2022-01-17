@@ -6,5 +6,5 @@ import { Component } from "@angular/core";
   <p>Meu primeiro Component com angular 2</p>
   `
 
-})
+}) // ´´(template litteral) indicado so se for menos de 3 linhas de codigo
 export class MeuPrimeiroComponent{}
